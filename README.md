@@ -57,13 +57,13 @@ Let's follow the instructions to [create a Foursquare app](https://foursquare.co
 
 **Hint:** You can use `http://localhost:3000` as your web address.
 
-Once you've created your app, you should see your Client ID and Client Secret on your app page. 
+Once you've created your app, you should see your Client ID and Client Secret on your app page.
 
 ### A Full API Request
 
 Now that we have them, we can try that request again with our app credentials. Enter the URL with your client id and secret into your browser:
 
-`https://api.foursquare.com/v2/venues/40a55d80f964a52020f31ee3?client_id=YOUR_CLIENT_ID&client_secret=YOUR_SECRET&v=20160201&m=foursquare`
+`https://api.foursquare.com/v2/venues/40a55d80f964a52020f31ee3?client_id=YOUR_CLIENT_ID&client_secret=YOUR_SECRET&v=20120610&m=foursquare`
 
 If you put in your client ID and secret, you should see some JSON that looks like this:
 
@@ -105,10 +105,10 @@ Open postman, then enter the base URL in the URL field: `https://api.foursquare.
 |-------------------|----------------|
 | client_id         | YOUR CLIENT ID |
 | client_secret     | YOUR SECRET    |
-| v                 | 20160201       |
+| v                 | 20120610       |
 | m                 | foursquare     |
 
-We'll talk about what `v` and `m` do in a minute. Hit "Send", and you should get the same JSON result that we did in the browser. 
+We'll talk about what `v` and `m` do in a minute. Hit "Send", and you should get the same JSON result that we did in the browser.
 
 ### API Versioning
 
